@@ -1,17 +1,22 @@
 .banner {
   z-index: 100;
   position: relative;
+  
   .banner-row {
     display: flex;
     align-items: center;
+    
+
     @media (max-width: $layout-breakpoint-medium) {
       &:first-child {
         margin-top: 48px;
+        
       }
     }
     &.center {
       justify-content: center;
       text-align: center;
+      
       .row-letter {
         left: 0;
       }

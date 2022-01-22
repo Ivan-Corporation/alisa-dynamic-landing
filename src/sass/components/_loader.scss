@@ -1,9 +1,11 @@
 body.loading {
   overflow: hidden;
   height: 100vh;
+ 
 }
 
 .loader {
+  
   .loader-inner {
     .image-block {
       position: absolute;
@@ -15,6 +17,7 @@ body.loading {
         width: 400px;
         left: 16%;
         bottom: 14%;
+        
         @media (max-width: $layout-breakpoint-xsmall) {
           left: 4%;
           bottom: 28%;
