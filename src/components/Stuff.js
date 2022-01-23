@@ -27,14 +27,14 @@ const slides = [
     subtitle: "Парикмахер",
     description: "Любит единорогов 🌈",
     image:
-      "https://images.unsplash.com/photo-1571771019784-3ff35f4f4277?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
+      "https://img.zet.com/products/48626/421798_48626_1532064050_1000.png"
   },
   {
-    title: "Chamonix",
-    subtitle: "France",
-    description: "Let your dreams come true",
+    title: "Валя",
+    subtitle: "Визажист",
+    description: "Ne touche pas ton visage 🤭",
     image:
-      "https://images.unsplash.com/photo-1581836499506-4a660b39478a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
+      "https://static.tildacdn.com/tild3464-6263-4664-b163-366663393037/kimmeru742noroot.png"
   },
   {
     title: "Mimisa Rocks",

@@ -87,15 +87,16 @@
     appearance: none;
     background: transparent;
     border: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     position: absolute;
     font-size: 25rem;
     width: 5rem;
     height: 5rem;
     top: 16%;
     transition: opacity 0.3s;
-    opacity: 0.7;
+    opacity: 0.8;
     z-index: 5;
+    text-shadow: black -2px -2px 3px;
   }
   
   .slides > button:hover {
@@ -141,13 +142,18 @@
     text-transform: uppercase;
     margin: 0;
     font-family: 'ZenAntique-Regular';
+    color: rgb(255, 255, 255);
+    text-shadow: black 2px -2px 1px ;
+    text-decoration: underline;
   }
   
   .slideDescription {
     margin: 0;
-    font-size: 2.8rem;
+    font-size: 3rem;
     letter-spacing: 0.2ch;
     color: rgb(255, 206, 206);
+    text-shadow: black 2px -2px 1px ;
+    
   }
   
   .slideContentInner {
