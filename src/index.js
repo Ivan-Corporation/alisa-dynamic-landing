@@ -8,6 +8,7 @@ import './theme/fonts/Pacifico-Regular.ttf';
 
 ReactDOM.render(
   <React.StrictMode>
+   
     <App />
   </React.StrictMode>,
   document.getElementById("root")

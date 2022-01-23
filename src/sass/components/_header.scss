@@ -8,6 +8,21 @@
   animation: rotate 5s linear infinite alternate; 
   
 }
+.catborder {
+  transform: rotateZ(13deg);
+  @media (max-width: $layout-breakpoint-medium) {
+    display: none;
+
+  }
+  @media (max-width: $layout-breakpoint-small) {
+    display: none;
+
+  }
+  @media (max-width: $layout-breakpoint-xsmall) {
+    display: none;
+
+  }
+}
 
 
 .header {
@@ -39,7 +54,8 @@
     }
     
     @media (max-width: $layout-breakpoint-medium) {
-      height: 96px;
+      height: 156px;
+      transform: scale(1.6);
       font-size: 1.2rem;
       margin-top: 50px;
       display: flex;
@@ -50,7 +66,8 @@
 
     }
     @media (max-width: $layout-breakpoint-small) {
-      height: 96px;
+      height: 126px;
+      transform: scale(1.6);
       font-size: 1.2rem;
       border-bottom: 0px dashed black;
       display: flex;
@@ -59,7 +76,8 @@
       justify-content: center;
     }
     @media (max-width: $layout-breakpoint-xsmall) {
-      height: 96px;
+      height: 126px;
+      transform: scale(1.6);
       font-size: 1.2rem;
       border-bottom: 0px solid black;
       display: flex;
@@ -108,3 +126,4 @@
     
   }
 }
+

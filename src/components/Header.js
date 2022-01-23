@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import cat from '../theme/cat.png'
+import catborder from '../theme/cat4.png'
 
 const Header = () => {
   return (
@@ -17,17 +18,24 @@ const Header = () => {
         <div className="logo"><img src={cat} style={{width:'210px'}}/></div>
         <nav className='nav'>
           <li>
-            <a href='/design'>Бренд</a>
+            <a href='/'>Бренд</a>
           </li>
           <li>
-            <a href='/cases'>Работы</a>
+            <a href='./#examples'>Работы</a>
           </li>
           <li>
-            <a href='/about'>О нас</a>
+            <a href='/#about'>О нас</a>
+          </li>
+          <li>
+            <a href='/#personal'>Сотрудники</a>
+          </li>
+          <li>
+            <a href='/#contacts'>Связь</a>
           </li>
         </nav>
         
-       
+        <div className="catborder"><img src={catborder} style={{width:'210px', paddingTop:'56px'}}/></div>
+
       </div>
     </motion.div>
   );

@@ -6,7 +6,7 @@
     display: flex;
     align-items: center;
     
-
+    
     @media (max-width: $layout-breakpoint-medium) {
       &:first-child {
         margin-top: 48px;
@@ -36,11 +36,12 @@
       display: inline-block;
       white-space: nowrap;
       @media (max-width: 1440px) {
-        font-size: 17rem;
+        font-size: 15rem;
       }
       @media (max-width: 630px) {
-        font-size: 9rem;
+        font-size: 7rem;
         letter-spacing: -0.4rem;
+        
       }
     }
     .row-col {
@@ -59,6 +60,7 @@
       @media (max-width: $layout-breakpoint-xsmall) {
         width: 100%;
         justify-content: flex-start;
+        
       }
       .row-message {
         font-weight: 500;
@@ -121,6 +123,7 @@
       top: -56px;
     }
     img {
+      margin-top: 80px;
       width: 100%;
       max-width: 100%;
     }
@@ -134,3 +137,6 @@
 
 }
 
+.cat2:hover {
+  transform: translateX(30px);
+}

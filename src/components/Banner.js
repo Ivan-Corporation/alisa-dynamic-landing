@@ -67,7 +67,7 @@ const BannerRowTop = ({ title }) => {
         <AnimatedLetters title={title} />
       </div>
       <motion.div
-        initial={{ opacity: 0, y: 60 }}
+        initial={{ opacity: 0, y: 0 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
           ease: "easeInOut",
@@ -78,11 +78,11 @@ const BannerRowTop = ({ title }) => {
         <span className='row-message'>
         <blockquote>Быть можно дельным человеком<br/> И думать о красе ногтей.</blockquote> <p className="pushkin">А.С.Пушкин - "Евгений Онегин"</p>
         
-        <img src={cat2} style={{
+        <img className="cat2" src={cat2} style={{
         width:'400px',
         position: 'absolute',
         right: '100px',
-        top: '187px',
+        top: '267px',
         zIndex:'101',
     
       }}/></span>

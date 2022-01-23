@@ -1,0 +1,87 @@
+.box {
+    background-color: #e9e9e9;
+    
+    width: 100%;
+    
+    margin-top: 50px;
+    
+  }
+
+
+  .boxabout {
+    background-color: rgb(201, 201, 201);
+    width: 210vh;
+    height: 100%;
+    margin-top: 50px;
+    @media (max-width:1220px) {
+      width: 100%;
+    }
+    @media (max-width:600px) {
+      width: 100%;
+    }
+  }
+
+.examples {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.examplessuper-header {
+    font-size: 100px;
+    padding-top: 220px;
+    text-decoration: underline;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+      @media (max-width: 600px) {
+        font-size: 40px;
+        margin-top: -720px;
+      }
+}
+.about-header {
+  font-size: 100px;
+    padding-top: 220px;
+    margin-bottom: -100px;
+    text-decoration: underline;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    @media (max-width:600px) {
+      margin-bottom: 100px;
+    }
+}
+
+
+.examples-header {
+    font-size: 80px;
+    padding-top: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+      @media (max-width: 600px) {
+        font-size: 20px;
+        margin-top: -180px;
+      }
+
+}
+
+.tatu {
+  border-radius: 30px;
+
+   @media (max-width:600px) {
+       width: 390px;
+   }
+}
+
+.company {
+  font-size: 40px;
+  padding: 120px;
+  line-height: 70px;
+}

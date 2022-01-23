@@ -5,6 +5,8 @@ import "./sass/main.scss";
 import Header from "./components/Header";
 import Banner from "./components/Banner";
 import Loader from "./components/Loader";
+import Examples from "./components/Examples";
+import About from './components/About';
 
 
 
@@ -28,7 +30,7 @@ function App() {
           <>
             <Header />
             <Banner />
-            {!loading && (<>
+            {!loading && (
               <div className='transition-image final'>
                 <motion.img
                   transition={{ ease: [0.6, 0.01, -0.05, 0.9], duration: 1.6 }}
@@ -36,11 +38,12 @@ function App() {
                   layoutId='main-image-1'
                 />
               </div>
-             <div>
-              
-             </div>
-              </>
+           
+             
             )}
+            <Examples/>
+            
+            <About/>
           </>
         )}
       </AnimatePresence>
