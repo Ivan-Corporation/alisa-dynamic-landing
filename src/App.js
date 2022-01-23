@@ -7,6 +7,7 @@ import Banner from "./components/Banner";
 import Loader from "./components/Loader";
 import Examples from "./components/Examples";
 import About from './components/About';
+import Stuff from './components/Stuff';
 
 
 
@@ -42,7 +43,7 @@ function App() {
              
             )}
             <Examples/>
-            
+            <Stuff/>
             <About/>
           </>
         )}

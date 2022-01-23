@@ -9,7 +9,7 @@
 
 
   .boxabout {
-    background-color: rgb(201, 201, 201);
+    background-color: rgb(209, 209, 209);
     width: 210vh;
     height: 100%;
     margin-top: 50px;
@@ -84,4 +84,33 @@
   font-size: 40px;
   padding: 120px;
   line-height: 70px;
+}
+
+
+
+.personalabout {
+  background-color: rgb(201, 201, 201);
+  width: 210vh;
+  height: 100%;
+  margin-top: 50px;
+  @media (max-width:1220px) {
+    width: 100%;
+  }
+  @media (max-width:600px) {
+    width: 100%;
+  }
+}
+
+.stuffcarousel {
+  transform: scale(1);
+  @media (max-width:960px) {
+    transform: scale(0.45);
+    margin-top: -100px;
+    margin-bottom: -100px;
+  }
+  @media (max-width:600px) {
+    transform: scale(0.25);
+    margin-top: -200px;
+    margin-bottom: -200px;
+  }
 }
