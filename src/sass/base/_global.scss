@@ -3,6 +3,7 @@ body {
 }
 *{
   -ms-overflow-style: none;
+  touch-action: pan-y;
 }
 ::-webkit-scrollbar {
   display: none;

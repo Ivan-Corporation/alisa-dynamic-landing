@@ -8,6 +8,7 @@ import Loader from "./components/Loader";
 import Examples from "./components/Examples";
 import About from './components/About';
 import Stuff from './components/Stuff';
+import Contacts from "./components/Contacts";
 
 
 
@@ -45,6 +46,7 @@ function App() {
             <Examples/>
             <Stuff/>
             <About/>
+            <Contacts/>
           </>
         )}
       </AnimatePresence>

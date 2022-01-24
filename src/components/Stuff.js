@@ -37,26 +37,40 @@ const slides = [
       "https://static.tildacdn.com/tild3464-6263-4664-b163-366663393037/kimmeru742noroot.png"
   },
   {
-    title: "Mimisa Rocks",
-    subtitle: "Australia",
-    description: "A piece of heaven",
+    title: "Женька",
+    subtitle: "Тату мастер",
+    description: "Истинный маори 👣",
     image:
-      "https://images.unsplash.com/photo-1566522650166-bd8b3e3a2b4b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
+      "https://sun9-70.userapi.com/impf/c840637/v840637336/595c2/eQwNxESh8-0.jpg?size=604x604&quality=96&sign=45678325d579c821cb927bc5e55cd803&type=album"
   },
   {
-    title: "Four",
-    subtitle: "Australia",
-    description: "A piece of heaven",
+    title: "Тетя Зина",
+    subtitle: "Уборщица",
+    description: "Моет полы 👍",
     image:
-      "https://images.unsplash.com/flagged/photo-1564918031455-72f4e35ba7a6?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
+      "http://itd2.mycdn.me/image?id=900207145362&t=20&plc=MOBILE&tkn=*wqYHSz50WSHV9RksV9xXIjpHEX0"
   },
   {
-    title: "Fives",
-    subtitle: "Australia",
-    description: "A piece of heaven",
+    title: "Шлёпа",
+    subtitle: "МасКот",
+    description: "Завлекает посетителей 🐈",
     image:
-      "https://images.unsplash.com/photo-1579130781921-76e18892b57b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
-  }
+      "https://i.pinimg.com/736x/90/0a/b7/900ab76cf0c3b2fe8683e0e2039beb00.jpg"
+  },
+  {
+    title: "Алиса",
+    subtitle: "Администратор",
+    description: "Вроде что-то делает 👸",
+    image:
+      "https://c.podium.im/photo/29445/2248/5ae903981dd3d.jpg"
+  },
+  {
+    title: "Иван",
+    subtitle: "Клоун",
+    description: "Развлекает посетителей 🤡",
+    image:
+      "https://image.noelshack.com/fichiers/2020/45/5/1604689482-pepe-clown-sad-main.png"
+  },
 ];
 
 
@@ -173,18 +187,18 @@ const ImageScroller = () => {
 
 const Stuff = () => {
   return (
-    <div className="examples"  id='personal'>
+    <div className="examples" id='personal'>
       <h1 className='about-header'>О нас</h1>
       <Suspense fallback={<div className="loading">Загрузка...</div>}>
-        
-      <div className="App">
 
-        <h1 className='examples-header'>Сотрудники 💇</h1>
-        <div className='stuffcarousel'><BoxAbout text={<ImageScroller/>} className="personalabout"/></div>
-        
-     
-      </div>
-    </Suspense>
+        <div className="App">
+
+          <h1 className='examples-header'>Сотрудники 💇</h1>
+          <div className='stuffcarousel'><BoxAbout text={<ImageScroller />} className="personalabout" /></div>
+
+
+        </div>
+      </Suspense>
     </div>
   );
 };
