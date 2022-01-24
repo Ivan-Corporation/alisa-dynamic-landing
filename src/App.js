@@ -47,6 +47,7 @@ function App() {
             <Stuff/>
             <About/>
             <Contacts/>
+            <a href='#' className="up">Вверх ↑</a>
           </>
         )}
       </AnimatePresence>
