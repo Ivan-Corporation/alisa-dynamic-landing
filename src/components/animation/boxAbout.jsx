@@ -24,7 +24,7 @@ const BoxAbout = ({ text }) => {
     <div ref={ref}>
       <motion.div
         initial={{
-          x: "-150vw"
+          x: "-180vw"
         }}
         animate={animationControl}
         className="boxabout"
